@@ -18,7 +18,7 @@
 ]]
 
 _G.Aiming = {
-    Key = "V", -- Capital Letters Only 
+    Key = "Q", -- Capital Letters Only 
     Aiming = "Namecall", -- "Namecall", "Index", "OldNyula" -- OldNyula is an FPS killer
     Mode = "Toggle", -- "Toggle" or "Hold" or "Always"
     ["Face-Target"] = false, -- Faces the person you're locked onto (If you use with macro it'll macro for you)
@@ -85,8 +85,8 @@ _G.Aiming = {
         
         Shake = {
             On = true,
-            LeftRight = 25,
-            UpDown = 60,
+            LeftRight = 5,
+            UpDown = 10,
             Division = 1, -- keep at 1 or above
         },
 
